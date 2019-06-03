@@ -16,7 +16,7 @@ public class DetectLocation : MonoBehaviour
 	// values for latitude and lon get from device gps
 	private float sLatitude, sLongitude;
 	// set value for target location
-	public float dLatitude = 37.601614f, dLongitude = 126.954588f;
+	public float dLatitude = 37.60181f, dLongitude = 126.955f;
 	// var for location request
 	private bool enableByRequest = true;
 	public int maxWait = 10;
