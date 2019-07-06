@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
         setContentView(R.layout.activity_main);
 
         mMapView = (MapView) findViewById(R.id.map_view);
-        //mMapView.setDaumMapApiKey(MapApiConst.33a3c751976cb7d2c8921f0f0dca4ed2);
+        //mMapView.setDaumMapApiKey(MapApiConst.apiKey);
         mMapView.setCurrentLocationEventListener(this);
 
         if (!checkLocationServicesStatus()) {
