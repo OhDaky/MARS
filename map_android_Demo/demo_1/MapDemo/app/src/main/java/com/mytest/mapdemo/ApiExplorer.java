@@ -11,7 +11,7 @@ public class ApiExplorer {
 
     public static void main(String[] args) throws IOException {
         StringBuilder urlBuilder = new StringBuilder("http://ws.bus.go.kr/api/rest/stationinfo/getLowStationByUid"); /*URL*/
-        urlBuilder.append("?" + URLEncoder.encode("ServiceKey","UTF-8") + "=VGWDWjSW%2Fr61gHN7eCsddsaTVFYzdd9KgKG%2FgMmXehtOWXfhW5TQEYDeAm%2B6PhU2vhrBKyKcZ7gXAUMycw%2BiIw%3D%3D"); /*Service Key*/
+        urlBuilder.append("?" + URLEncoder.encode("ServiceKey","UTF-8") + "=서비스키"); /*Service Key*/
         urlBuilder.append("&" + URLEncoder.encode("arsid","UTF-8") + "=" + URLEncoder.encode("", "UTF-8")); /**/
         URL url = new URL(urlBuilder.toString());
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
