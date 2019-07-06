@@ -4,30 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#b9b0a2"
-    tools:context=".RouteActivity">
-
-    <android.support.v4.view.ViewPager
-        android:foregroundGravity="center"
-        android:id="@+id/viewPager"
-        android:layout_centerInParent="true"
-        android:overScrollMode="never"
-        android:clipToPadding="false"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+    android:background="#cc955d"
+    tools:context=".PalaceStartPos">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="34.3sp"
-        android:textColor="#ffffff"
-        android:letterSpacing="-0.04"
-        android:lineSpacingExtra="16.3sp"
-        android:gravity="center_horizontal"
         android:layout_marginTop="100dp"
-        android:text="Choose Your"
-        />
-    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="34.3sp"
@@ -35,9 +16,27 @@
         android:letterSpacing="-0.04"
         android:lineSpacingExtra="16.3sp"
         android:gravity="center_horizontal"
-        android:layout_marginTop="150dp"
-        android:text="Trip Theme"
+        android:text="Go to the"
         />
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34.3sp"
+        android:textColor="#ffffff"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="16.3sp"
+        android:gravity="center_horizontal"
+        android:text="Starting Position"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="220dp"
+        android:background="#ffffff"
+        android:gravity="center_horizontal" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -46,10 +45,9 @@
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="30dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/btn_white"/>
-
 
 
 </RelativeLayout>

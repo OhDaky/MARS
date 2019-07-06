@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".PalaceTheme">
+    tools:context=".NightTheme">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -31,7 +31,7 @@
         android:textColor="#ffffff"
         android:letterSpacing="-0.04"
         android:lineSpacingExtra="16sp"
-        android:text="Palace Theme"
+        android:text="Night Theme"
         />
 
     <ImageView

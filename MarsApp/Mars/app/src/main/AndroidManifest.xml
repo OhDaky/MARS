@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".PalaceTheme"></activity>
+        <activity android:name=".Night1StartPos"></activity>
+        <activity android:name=".NightStartPos" />
+        <activity android:name=".PalaceStartPos" />
+        <activity android:name=".NightTheme1" />
+        <activity android:name=".NightTheme" />
+        <activity android:name=".PalaceTheme" />
         <activity android:name=".RouteActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
