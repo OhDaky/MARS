@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#6a1712"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="-5dp"
+        android:src="@drawable/sunset_4165356_1920"
+        android:contentDescription="mainImage"
+        />
+
+
+    <TextView
+        android:layout_marginTop="-250dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="#29000000"
+        android:shadowDx="24"
+        android:shadowDy="16"
+        android:shadowRadius="17"
+        android:textSize="68.3sp"
+        android:textColor="#ffffff"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="33sp"
+        android:gravity="center_horizontal"
+        android:text="Mars"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:letterSpacing="0.04"
+        android:lineSpacingExtra="28.3sp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="25dp"
+        android:text="Track Your
+Travel in Seoul"
+        />
+
+    <TextView
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentBottom="true"
+        android:letterSpacing="0.2"
+        android:lineSpacingExtra="-9.7sp"
+        android:gravity="center_horizontal"
+        android:textColor="#bfbfbf"
+        android:textSize="21.3sp"
+        android:text="GET STARTED" />
+
+</LinearLayout>
