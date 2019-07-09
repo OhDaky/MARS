@@ -3,7 +3,7 @@ package com.example.mars;
 public class Model {
 
     private int image;
-    private String title;
+    private static String title;
     private String desc;
 
     public Model(int image, String title, String desc) {
@@ -20,7 +20,7 @@ public class Model {
         this.image = image;
     }
 
-    public String getTitle() {
+    public static String getTitle() {
         return title;
     }
 
