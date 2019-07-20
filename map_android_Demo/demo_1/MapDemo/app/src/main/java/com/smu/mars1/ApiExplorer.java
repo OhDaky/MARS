@@ -1,4 +1,4 @@
-package com.mytest.mapdemo;
+package com.smu.mars1;
 
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;

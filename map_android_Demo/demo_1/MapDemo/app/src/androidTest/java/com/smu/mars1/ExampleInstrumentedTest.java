@@ -1,4 +1,4 @@
-package com.mytest.mapdemo;
+package com.smu.mars1;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

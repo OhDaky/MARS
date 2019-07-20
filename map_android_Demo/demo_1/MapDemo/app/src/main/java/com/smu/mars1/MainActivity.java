@@ -1,4 +1,4 @@
-package com.mytest.mapdemo;
+package com.smu.mars1;
 
 import android.Manifest;
 import android.app.AlertDialog;
