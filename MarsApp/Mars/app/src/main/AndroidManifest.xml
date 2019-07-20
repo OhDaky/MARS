@@ -9,7 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".Night1StartPos"></activity>
+        <activity android:name=".HomeEmpty4"></activity>
+        <activity android:name=".HomeEmpty3" />
+        <activity android:name=".HomeEmpty2" />
+        <activity android:name=".HomeEmpty1" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/rounded" />
+
+        <activity android:name=".Home_Empty" />
+        <activity android:name=".GBackground" />
+        <activity android:name=".RouteViewPalace" />
+        <activity android:name=".Night1StartPos" />
         <activity android:name=".NightStartPos" />
         <activity android:name=".PalaceStartPos" />
         <activity android:name=".NightTheme1" />

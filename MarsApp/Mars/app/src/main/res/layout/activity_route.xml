@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#b9b0a2"
+    android:orientation="vertical"
     tools:context=".RouteActivity">
 
     <android.support.v4.view.ViewPager
