@@ -35,9 +35,9 @@ public class RouteActivity extends AppCompatActivity {
         setContentView(R.layout.activity_route);
 
         models = new ArrayList<>();
-        models.add(new Model(R.drawable.seoul_3599501_1920, "seoul_3599501_1920", ""));
-        models.add(new Model(R.drawable.myeongdong_4119806_1920, "myeongdong_4119806_1920", ""));
-        models.add(new Model(R.drawable.night, "night", ""));
+        models.add(new Model(R.drawable.choose_palace, "choose_palace", ""));
+        models.add(new Model(R.drawable.choose_night, "choose_night", ""));
+        models.add(new Model(R.drawable.choose_museum, "choose_museum", ""));
 
 
         adapter = new Adapter(models, this);

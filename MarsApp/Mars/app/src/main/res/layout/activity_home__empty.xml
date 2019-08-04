@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f3f4"
+    android:orientation="vertical"
+    tools:context=".Home_Empty">
+
+    <ImageView
+        android:layout_marginTop="-40dp"
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bar_nav"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#585858"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="12sp"
+        android:text="Trip Theme"
+        />
+
+    <RelativeLayout
+        android:id="@+id/click"
+        android:layout_width="380dp"
+        android:layout_height="130dp"
+        android:background="@xml/rounded"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_marginLeft="-200dp"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/image_theme"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23.3sp"
+            android:textColor="#585858"
+            android:letterSpacing="-0.04"
+            android:lineSpacingExtra="11sp"
+            android:text="Choose Theme"
+            />
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21.7sp"
+            android:textColor="#8d8d9a"
+            android:letterSpacing="-0.04"
+            android:lineSpacingExtra="10.3sp"
+            android:text="Empty"
+            />
+        <ImageView
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/status_bar"
+            android:gravity="center_horizontal"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#585858"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="12sp"
+        android:text="Spot"
+        />
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:background="@xml/rounded"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#585858"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="12sp"
+        android:text="Photo"
+        />
+
+    <RelativeLayout
+        android:id="@+id/f"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:background="@xml/rounded"
+        android:layout_gravity="center"
+        />
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="430dp"
+        android:layout_height="130dp"
+        android:background="#ffffff"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icn_home_active"
+            android:gravity="center_horizontal"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

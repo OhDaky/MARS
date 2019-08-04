@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/overview_name_01"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21.7sp"
+        android:textColor="#b13600"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="10.3sp"
+        android:text="Deoksugung 덕수궁"
+        />
+
+    <TextView
+        android:id="@+id/overview_sub_01"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18.3sp"
+        android:textColor="#6f6f6f"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="9sp"
+        android:text="서울특별시 중구 정동 세종대로 99"
+        />
+
+    <TextView
+        android:id="@+id/overview_name_02"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21.7sp"
+        android:textColor="#b13600"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="10.3sp"
+        android:text="Cheonggyecheon 청계천"
+        />
+
+    <TextView
+        android:id="@+id/overview_sub_02"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18.3sp"
+        android:textColor="#6f6f6f"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="9sp"
+        android:text="서울 종로구 무교로 37 (서린동)"
+        />
+
+    <TextView
+        android:id="@+id/overview_name_03"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21.7sp"
+        android:textColor="#b13600"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="10.3sp"
+        android:text="Gyeongbokgung 경복궁"
+        />
+
+    <TextView
+        android:id="@+id/overview_sub_03"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18.3sp"
+        android:textColor="#6f6f6f"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="9sp"
+        android:text="서울특별시 종로구 세종로 사직로 161"
+        />
+
+    <TextView
+        android:id="@+id/overview_name_04"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21.7sp"
+        android:textColor="#b13600"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="10.3sp"
+        android:text="Bukchon Hanok Village 북촌"
+        />
+
+    <TextView
+        android:id="@+id/overview_sub_04"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18.3sp"
+        android:textColor="#6f6f6f"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="9sp"
+        android:text="서울특별시 종로구 가회동 계동길 37"
+        />
+
+    <TextView
+        android:id="@+id/overview_name_05"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21.7sp"
+        android:textColor="#b13600"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="10.3sp"
+        android:text="Changdeokgung 창덕궁"
+        />
+
+    <TextView
+        android:id="@+id/overview_sub_05"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18.3sp"
+        android:textColor="#6f6f6f"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="9sp"
+        android:text="서울특별시 종로구 와룡동 율곡로 99"
+        />
+</LinearLayout>

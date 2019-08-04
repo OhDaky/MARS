@@ -8,158 +8,38 @@
     tools:context=".NightTheme">
 
     <ImageView
+        android:layout_marginBottom="20dp"
+        android:id="@+id/g"
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
+        android:layout_height="230dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/palace"
-        android:contentDescription="palace"
+        android:src="@drawable/night_theme"
+        android:contentDescription="night"
         />
 
-    <ImageView
+<!--    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="-8dp"
-        android:src="@drawable/black" />
+        android:src="@drawable/black" />-->
 
-    <TextView
-        android:layout_marginTop="150dp"
-        android:layout_marginLeft="60dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="33.7sp"
-        android:textColor="#ffffff"
-        android:letterSpacing="-0.04"
-        android:lineSpacingExtra="16sp"
-        android:text="Night Theme"
-        />
+
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="275dp"
+        android:layout_height="310dp"
         android:src="@drawable/line"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="250dp"/>
+        android:layout_marginTop="220dp"/>
 
-    <TextView
-        android:layout_marginTop="240dp"
-        android:layout_marginLeft="80dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="21.7sp"
-        android:textColor="#b13600"
-        android:letterSpacing="-0.04"
-        android:lineSpacingExtra="10.3sp"
-        android:text="Gyeongbokgung"
-        />
+    <include
 
-    <TextView
-        android:layout_marginTop="270dp"
-        android:layout_marginLeft="80dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="18.3sp"
-        android:textColor="#6f6f6f"
-        android:letterSpacing="-0.04"
-        android:lineSpacingExtra="9sp"
-        android:text="경복궁 설명설명 설명 설명"
-        />
-
-    <TextView
-        android:layout_marginTop="305dp"
-        android:layout_marginLeft="80dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="21.7sp"
-        android:textColor="#b13600"
-        android:letterSpacing="-0.04"
-        android:lineSpacingExtra="10.3sp"
-        android:text="Gyeongbokgung"
-        />
-
-    <TextView
-        android:layout_marginTop="335dp"
-        android:layout_marginLeft="80dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="18.3sp"
-        android:textColor="#6f6f6f"
-        android:letterSpacing="-0.04"
-        android:lineSpacingExtra="9sp"
-        android:text="경복궁 설명설명 설명 설명"
-        />
-
-    <TextView
-        android:layout_marginTop="370dp"
-        android:layout_marginLeft="80dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="21.7sp"
-        android:textColor="#b13600"
-        android:letterSpacing="-0.04"
-        android:lineSpacingExtra="10.3sp"
-        android:text="Gyeongbokgung"
-        />
-
-    <TextView
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="80dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="18.3sp"
-        android:textColor="#6f6f6f"
-        android:letterSpacing="-0.04"
-        android:lineSpacingExtra="9sp"
-        android:text="경복궁 설명설명 설명 설명"
-        />
-
-    <TextView
-        android:layout_marginTop="435dp"
-        android:layout_marginLeft="80dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="21.7sp"
-        android:textColor="#b13600"
-        android:letterSpacing="-0.04"
-        android:lineSpacingExtra="10.3sp"
-        android:text="Gyeongbokgung"
-        />
-
-    <TextView
-        android:layout_marginTop="465dp"
-        android:layout_marginLeft="80dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="18.3sp"
-        android:textColor="#6f6f6f"
-        android:letterSpacing="-0.04"
-        android:lineSpacingExtra="9sp"
-        android:text="경복궁 설명설명 설명 설명"
-        />
-
-    <TextView
-        android:layout_marginTop="500dp"
-        android:layout_marginLeft="80dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="21.7sp"
-        android:textColor="#b13600"
-        android:letterSpacing="-0.04"
-        android:lineSpacingExtra="10.3sp"
-        android:text="Gyeongbokgung"
-        />
-
-    <TextView
-        android:layout_marginTop="530dp"
-        android:layout_marginLeft="80dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="18.3sp"
-        android:textColor="#6f6f6f"
-        android:letterSpacing="-0.04"
-        android:lineSpacingExtra="9sp"
-        android:text="경복궁 설명설명 설명 설명"
-        />
+        android:layout_below="@+id/g"
+        layout="@layout/overview"
+        android:id="@+id/night_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -168,7 +48,6 @@
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/start_btn"/>
 
