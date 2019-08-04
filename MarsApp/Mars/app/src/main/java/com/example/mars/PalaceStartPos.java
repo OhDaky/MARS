@@ -23,7 +23,7 @@ public class PalaceStartPos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_palace_start_pos);
 
-        View textView = (View)findViewById(R.id.g_start_item);
+/*        View textView = (View)findViewById(R.id.g_start_item);
 
         TextView tv1 = (TextView)textView.findViewById(R.id.title);
         TextView tv2 = (TextView)textView.findViewById(R.id.desc);
@@ -34,10 +34,11 @@ public class PalaceStartPos extends AppCompatActivity {
 
         iv.setImageResource(R.drawable.gyeongbokgung);
 
-        tv1.setText("Gyeongbokgung");
-        tv2.setText("서울특별시 종로구 세종로 사직로 161\n" + "Subway\n" +
-                "- line 5, Gwanghwamun st. gate 2, 10m\n" +
-                "- line 3, Gyeongbokgung st. gate 5, 5m");
+        tv1.setText("Deoksugung");
+        tv2.setText("서울특별시 중구 정동 세종대로 99\n" + "Subway\n" +
+                "- line 1,2, Cityhall st. gate 1, 5m\n" +
+                "- line 5, Gwanghwamun st. gate 6, 12m\n" +
+                "Hours\n" + "- 9:00 AM - 9:00 PM");*/
 
 
         n_btn = (ImageView) findViewById(R.id.btnOrder);

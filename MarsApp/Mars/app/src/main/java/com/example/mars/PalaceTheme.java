@@ -30,16 +30,16 @@ public class PalaceTheme extends AppCompatActivity {
         TextView n5 = (TextView)textView.findViewById(R.id.overview_name_05);
         TextView s5 = (TextView)textView.findViewById(R.id.overview_sub_05);
 
-        n1.setText("경복궁");
-        s1.setText("경복궁입니다");
-        n2.setText("창덕궁");
-        s2.setText("창덕궁입니다");
-        n3.setText("북촌");
-        s3.setText("북촌입니다");
-        n4.setText("Gyeongbokgung");
-        s4.setText("경복궁입니다");
-        n5.setText("Gyeongbokgung");
-        s5.setText("경복궁입니다");
+        n1.setText("Deoksugung");
+        s1.setText("서울특별시 중구 정동 세종대로 99");
+        n2.setText("Cheonggyecheon");
+        s2.setText("서울 종로구 무교로 37 (서린동)");
+        n3.setText("Gyeongbokgung");
+        s3.setText("서울특별시 종로구 세종로 사직로 161");
+        n4.setText("Bukchon Hanok");
+        s4.setText("서울특별시 종로구 가회동 계동길 37");
+        n5.setText("Changdeokgung");
+        s5.setText("서울특별시 종로구 와룡동 율곡로 99");
 
         palace_btn = (ImageView) findViewById(R.id.btnOrder);
         palace_btn.setOnClickListener(new View.OnClickListener() {

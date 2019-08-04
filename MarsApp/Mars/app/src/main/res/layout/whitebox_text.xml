@@ -14,7 +14,7 @@
         android:lineSpacingExtra="9.7sp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="80dp"
-        android:text="Gyeongbokgung"
+        android:text="Deoksugung 덕수궁"
         />
 
     <TextView
@@ -27,7 +27,7 @@
         android:lineSpacingExtra="5.7sp"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="80dp"
-        android:text="서울특별시 종로구 세종로 사직로 161"
+        android:text="서울특별시 중구 정동 세종대로 99"
         />
 
     <TextView
@@ -40,7 +40,7 @@
         android:lineSpacingExtra="9.7sp"
         android:layout_marginTop="60dp"
         android:layout_marginLeft="80dp"
-        android:text="Gyeongbokgung"
+        android:text="Cheonggyecheon 청계천"
         />
 
     <TextView
@@ -53,7 +53,7 @@
         android:lineSpacingExtra="5.7sp"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="80dp"
-        android:text="서울특별시 종로구 세종로 사직로 161"
+        android:text="서울 종로구 무교로 37 (서린동)"
         />
 
     <TextView
@@ -66,7 +66,7 @@
         android:lineSpacingExtra="9.7sp"
         android:layout_marginTop="60dp"
         android:layout_marginLeft="80dp"
-        android:text="Gyeongbokgung"
+        android:text="Gyeongbokgung 경복궁"
         />
 
     <TextView
@@ -92,7 +92,7 @@
         android:lineSpacingExtra="9.7sp"
         android:layout_marginTop="60dp"
         android:layout_marginLeft="80dp"
-        android:text="Gyeongbokgung"
+        android:text="Bukchon Hanok 북촌"
         />
 
     <TextView
@@ -105,7 +105,7 @@
         android:lineSpacingExtra="5.7sp"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="80dp"
-        android:text="서울특별시 종로구 세종로 사직로 161"
+        android:text="서울특별시 종로구 가회동 계동길 37"
         />
 
     <TextView
@@ -118,7 +118,7 @@
         android:lineSpacingExtra="9.7sp"
         android:layout_marginTop="60dp"
         android:layout_marginLeft="80dp"
-        android:text="Gyeongbokgung"
+        android:text="Changdeokgung 창덕궁"
         />
 
     <TextView
@@ -131,6 +131,6 @@
         android:lineSpacingExtra="5.7sp"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="80dp"
-        android:text="서울특별시 종로구 세종로 사직로 161"
+        android:text="서울특별시 종로구 와룡동 율곡로 99"
         />
 </LinearLayout>

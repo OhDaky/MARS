@@ -8,32 +8,23 @@
     tools:context=".NightTheme">
 
     <ImageView
+        android:layout_marginBottom="20dp"
         android:id="@+id/g"
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
+        android:layout_height="230dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/palace"
+        android:src="@drawable/night_theme"
         android:contentDescription="night"
         />
 
-    <ImageView
+<!--    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="-8dp"
-        android:src="@drawable/black" />
+        android:src="@drawable/black" />-->
 
-    <TextView
-        android:layout_marginTop="150dp"
-        android:layout_marginLeft="60dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="33.7sp"
-        android:textColor="#ffffff"
-        android:letterSpacing="-0.04"
-        android:lineSpacingExtra="16sp"
-        android:text="Night Theme"
-        />
+
 
     <ImageView
         android:layout_width="wrap_content"
@@ -43,6 +34,7 @@
         android:layout_marginTop="220dp"/>
 
     <include
+
         android:layout_below="@+id/g"
         layout="@layout/overview"
         android:id="@+id/night_overview"

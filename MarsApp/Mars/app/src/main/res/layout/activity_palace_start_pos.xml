@@ -32,15 +32,20 @@
         android:text="Starting Position"
         />
 
-    <include
+<!--    <include
         android:layout_below="@+id/t"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         layout="@layout/start_pos_item"
         android:id="@+id/g_start_item"
+        />-->
+
+    <ImageView
+        android:layout_below="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="420dp"
+        android:src="@drawable/explain"
         />
-
-
 
     <ImageView
 

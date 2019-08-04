@@ -29,7 +29,7 @@ public class NightTheme extends AppCompatActivity {
         TextView n5 = (TextView)textView.findViewById(R.id.overview_name_05);
         TextView s5 = (TextView)textView.findViewById(R.id.overview_sub_05);
 
-        n1.setText("Night1");
+        n1.setText("Dongdaemun Market");
         s1.setText("Night1입니다");
         n2.setText("Night2");
         s2.setText("Night2입니다");

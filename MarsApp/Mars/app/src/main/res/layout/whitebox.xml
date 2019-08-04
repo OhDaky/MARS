@@ -6,30 +6,38 @@
 
 
     <ImageView
+        android:id="@+id/deoksu"
         android:layout_width="250dp"
         android:layout_height="90dp"
         android:src="@drawable/whitebox"
         android:layout_marginLeft="80dp"/>
 
     <ImageView
+        android:id="@+id/cheong"
         android:layout_width="250dp"
         android:layout_height="90dp"
         android:src="@drawable/whitebox"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="80dp"/>
+    
     <ImageView
+        android:id="@+id/gyeongbok"
         android:layout_width="250dp"
         android:layout_height="90dp"
         android:src="@drawable/whitebox"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="80dp"/>
+
     <ImageView
+        android:id="@+id/bukchon"
         android:layout_width="250dp"
         android:layout_height="90dp"
         android:src="@drawable/whitebox"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="80dp"/>
+
     <ImageView
+        android:id="@+id/chandeok"
         android:layout_width="250dp"
         android:layout_height="90dp"
         android:src="@drawable/whitebox"
