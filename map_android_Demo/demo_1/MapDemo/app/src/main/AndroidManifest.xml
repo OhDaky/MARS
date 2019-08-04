@@ -15,7 +15,7 @@
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="5ae921d05ae057ab200b159285eb3ab6"/>
+            android:value="네이티브키"/>
 
         <activity android:name=".MainActivity">
             <intent-filter>
