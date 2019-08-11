@@ -10,11 +10,11 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="60dp"
         android:background="#d97d54">
 
         <TextView
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30.7sp"
@@ -27,10 +27,11 @@
 
     </LinearLayout>
 
+
     <TextView
         android:paddingLeft="20dp"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="25sp"
@@ -50,10 +51,26 @@
         android:id="@+id/tablayout_id">
     </android.support.design.widget.TabLayout>
 
+
     <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_id"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/viewpager_id">
+        android:layout_height="450dp">
+
     </android.support.v4.view.ViewPager>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavi"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_menu"
+        tools:layout_editor_absoluteX="8dp"
+        app:itemIconTint="#d97d54"
+        android:paddingBottom="20dp">
+
+
+    </android.support.design.widget.BottomNavigationView>
+
 
 </LinearLayout>

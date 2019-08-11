@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#f0f3f4"
     android:orientation="vertical"
-    tools:context=".Home_Empty">
+    tools:context=".Home">
 
     <ImageView
         android:layout_marginTop="-40dp"
@@ -26,51 +26,12 @@
         android:text="Trip Theme"
         />
 
-    <RelativeLayout
-        android:id="@+id/clickTheme"
-        android:layout_width="380dp"
-        android:layout_height="130dp"
-        android:background="@xml/rounded"
-        android:layout_gravity="center">
-
-        <ImageView
-            android:layout_marginLeft="-200dp"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:src="@drawable/image_theme"
-            />
-        <TextView
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="150dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="23.3sp"
-            android:textColor="#585858"
-            android:letterSpacing="-0.04"
-            android:lineSpacingExtra="11sp"
-            android:text="Choose Theme"
-            />
-
-        <TextView
-            android:layout_marginTop="60dp"
-            android:layout_marginLeft="250dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="21.7sp"
-            android:textColor="#8d8d9a"
-            android:letterSpacing="-0.04"
-            android:lineSpacingExtra="10.3sp"
-            android:text="Empty"
-            />
-        <ImageView
-            android:layout_marginTop="100dp"
-            android:layout_marginLeft="40dp"
-            android:layout_width="300dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/status_bar"
-            android:gravity="center_horizontal"/>
-
-    </RelativeLayout>
+    <ImageView
+        android:id="@+id/theme"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/deok_theme"
+        />
 
     <TextView
         android:layout_marginLeft="40dp"
@@ -83,13 +44,12 @@
         android:text="Spot"
         />
 
-    <RelativeLayout
-        android:id="@+id/clickSpot"
-        android:layout_width="380dp"
+
+    <ImageView
+        android:id="@+id/spot"
+        android:layout_width="wrap_content"
         android:layout_height="100dp"
-        android:background="@xml/rounded"
-        android:layout_gravity="center"
-        />
+        android:src="@drawable/spot_bar"/>
 
     <TextView
         android:layout_marginLeft="40dp"
@@ -102,12 +62,17 @@
         android:text="Photo"
         />
 
-    <RelativeLayout
+    <TextView
         android:id="@+id/f"
         android:layout_width="380dp"
         android:layout_height="150dp"
         android:background="@xml/rounded"
         android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#707070"
+        android:lineSpacingExtra="5sp"
+        android:text="Deoksugung Palace is one of five royal
+palaces remained in Seoul. Mainly built at the term of the 20th century, Deoksugung Palace is the smallest of Seoul’s palaces. The name Deoksugung Palace means “Palace of virtue and longevity” in the spirit of praying for long life for Emperor Gojong. "
         />
 
     <RelativeLayout
@@ -117,14 +82,22 @@
         android:background="#ffffff"
         android:layout_gravity="center">
 
-        <ImageView
-            android:layout_marginTop="10dp"
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottomNavi"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/icn_home_active"
-            android:gravity="center_horizontal"
-            />
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:menu="@menu/bottom_menu"
+            tools:layout_editor_absoluteX="8dp"
+            app:itemIconTint="#d97d54"
+            android:paddingBottom="20dp">
+
+
+        </android.support.design.widget.BottomNavigationView>
 
     </RelativeLayout>
+
+
+
 
 </LinearLayout>
